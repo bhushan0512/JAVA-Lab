@@ -2,10 +2,10 @@ package Assignment1;
 import java.util.Scanner;
 public class CharacterCounter {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.print("Enter a string: ");
-        String inputString = scanner.nextLine();
-        scanner.close();
+        String inputString = sc.nextLine();
+        sc.close();
         countCharacters(inputString);
     }
     public static void countCharacters(String input) {
