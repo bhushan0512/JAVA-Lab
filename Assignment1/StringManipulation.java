@@ -5,8 +5,6 @@ import java.util.Scanner;
 public class StringManipulation {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        // System.out.print("Enter the first string: ");
-        // String str1 = scanner.next();
 
         int choice;
         do {
