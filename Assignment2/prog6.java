@@ -1,8 +1,5 @@
 package Assignment2;
 
-import java.util.*;
-import java.io.*;
-
 class outer{
 	static int a=10;
 	static class inner{
