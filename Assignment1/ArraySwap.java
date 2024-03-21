@@ -4,15 +4,15 @@ import java.util.Arrays;
 
 public class ArraySwap {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter the size of the array: ");
-        int size = scanner.nextInt();
+        int size = sc.nextInt();
         int[] originalArray = new int[size];
 
         System.out.println("Enter the elements of the array:");
         for (int i = 0; i < size; i++) {
-            originalArray[i] = scanner.nextInt();
+            originalArray[i] = sc.nextInt();
         }
 
         int[] swappedArray = swapFirstAndLast(originalArray);
@@ -20,7 +20,7 @@ public class ArraySwap {
         System.out.println("Original Array: " + Arrays.toString(originalArray));
         System.out.println("New array after swapping the first and last elements: " + Arrays.toString(swappedArray));
 
-        scanner.close();
+        sc.close();
     }
 
     public static int[] swapFirstAndLast(int[] array) {
